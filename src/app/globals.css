@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #6e7a87;
+  --foreground: #f6f7f8;
 }
 
 @theme inline {
@@ -14,8 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f6f7f8;
+    --foreground: #f6f7f8;
   }
 }
 
@@ -23,4 +23,153 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+.icon-home {
+  width: 15px;
+  height: 17px;
+  background-image: url("/Image/home.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.icon-calendar {
+  width: 15px;
+  height: 17px;
+  background-image: url("/Image/calender.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.icon-card {
+  width: 15px;
+  height: 17px;
+  background-image: url("/Image/card.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.icon-chat {
+  width: 15px;
+  height: 17px;
+  background-image: url("/Image/chat.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.icon-patient {
+  width: 15px;
+  height: 17px;
+  background-image: url("/Image/patient.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.icon-setting {
+  width: 15px;
+  height: 17px;
+  background-image: url("/Image/settings.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.icon-dot {
+  width: 15px;
+  height: 17px;
+  background-image: url("/Image/dot.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.icon-search {
+  width: 18px;
+  height: 18px;
+  background-image: url("/Image/search.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.icon-hori_dot {
+  width: 18px;
+  height: 18px;
+  background-image: url("/Image/hori_dot.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.hori_line {
+  top: 32px;
+  left: 1502px;
+  width: 1px;
+  height: 44px;
+  background: #ededed 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.icon-female {
+  width: 42px;
+  height: 42px;
+  background-image: url("/Image/FemaleIcon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.icon-birth {
+  width: 42px;
+  height: 42px;
+  background-image: url("/Image/BirthIcon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.icon-phone {
+  width: 42px;
+  height: 42px;
+  background-image: url("/Image/PhoneIcon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.icon-insurance {
+  width: 42px;
+  height: 42px;
+  background-image: url("/Image/InsuranceIcon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.icon-download {
+  width: 20px;
+  height: 20px;
+  background-image: url("/Image/download.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.sysDev {
+  top: 234px;
+  left: 939px;
+  width: 14px;
+  height: 14px;
+  background: #e66fd2 0% 0% no-repeat padding-box;
+  border: 1px solid #ffffff;
+  opacity: 1;
+  border-radius: 100%;
+}
+.diaDev {
+  top: 351px;
+  left: 939px;
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  background: #8c6fe6 0% 0% no-repeat padding-box;
+  border: 1px solid #ffffff;
+  opacity: 1;
+}
+.line {
+  top: 231px;
+  left: 939px;
+  width: 130px;
+  height: 2px;
+  opacity: 1;
+ background: #e1dede 0% 0% no-repeat padding-box;
 }
