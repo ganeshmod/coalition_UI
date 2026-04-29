@@ -17,7 +17,7 @@ function RightPage({ allPatients }) {
             />
           )}
           <h1 className=" text-[#072635] font-bold text-[24px]">
-            {allPatients[3]?.name}
+            {allPatients?.[3]?.name}
           </h1>
         </div>
         <div className="flex items-center gap-3 my-2">
@@ -25,7 +25,7 @@ function RightPage({ allPatients }) {
           <div>
             <h1 className="text-[14px] text-[#072635]  "> Date of Birth </h1>
             <p className="font-semibold text-[14px] text-[black]">
-              {allPatients[3]?.date_of_birth}{" "}
+              {allPatients?.[3]?.date_of_birth}{" "}
             </p>
           </div>
         </div>
@@ -44,7 +44,7 @@ function RightPage({ allPatients }) {
             <h1 className="text-[14px] text-[#072635]  "> Contact Info. </h1>
             <p className="font-semibold text-[14px] text-[black]">
               {" "}
-              {allPatients[3]?.phone_number}{" "}
+              {allPatients?.[3]?.phone_number}{" "}
             </p>
           </div>
         </div>
@@ -57,7 +57,7 @@ function RightPage({ allPatients }) {
               Emergency Contacts{" "}
             </h1>
             <p className="font-semibold text-[14px] text-[black]">
-              {allPatients[3]?.emergency_contact}{" "}
+              {allPatients?.[3]?.emergency_contact}{" "}
             </p>
           </div>
         </div>
@@ -68,7 +68,7 @@ function RightPage({ allPatients }) {
               Insurance Providers{" "}
             </h1>
             <p className="font-semibold text-[14px] text-[black]">
-              {allPatients[3]?.insurance_type}{" "}
+              {allPatients?.[3]?.insurance_type}{" "}
             </p>
           </div>
         </div>
@@ -76,7 +76,7 @@ function RightPage({ allPatients }) {
       <div className="h-auto bg-white p-4 mt-3 rounded-sm">
         <h1 className="text-black font-bold text-[24px]">Lab Results</h1>
         <div className="h-25 overflow-auto">
-          {allPatients[3]?.lab_results?.map((lab_result, index) => (
+          {allPatients?.[3]?.lab_results?.map((lab_result, index) => (
             <div
               key={index}
               className="flex items-center justify-between mt-4 p-2"
